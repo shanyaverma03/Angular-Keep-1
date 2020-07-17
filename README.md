@@ -58,7 +58,7 @@ npm run e2e
 ```
 
 ## Submitting your solution for preliminary automated review  
-1. Open `https://hobbes-nht.stackroute.in/#/` and login into the platform  
+1. Open `https://hobbes.stackroute.in/#/` and login into the platform  
 2. Under `Assignment repository` select `angular-keep-level-1-assignment`, and branch `master`
 3. Under `Your solution repository` select your own repository and branch
 4. Press `Submit`
