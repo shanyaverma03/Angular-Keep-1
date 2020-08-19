@@ -13,9 +13,11 @@ import {MatButtonModule} from '@angular/material/button';
 import {FormsModule} from '@angular/forms';
 import {MatCardModule} from '@angular/material/card';
 import {HttpClientModule} from '@angular/common/http';
+import { AppComponent } from 'src/app/app.component';
+import { HeaderComponent } from 'src/app/header/header.component';
 
 @NgModule({
-  declarations: [ ],
+  declarations: [AppComponent, HeaderComponent],
   imports: [ 
     BrowserModule,
     BrowserAnimationsModule,
@@ -31,6 +33,6 @@ import {HttpClientModule} from '@angular/common/http';
 
   ],
   providers: [ ],
-  bootstrap: [ ]
+  bootstrap: [AppComponent]
 })
 export class AppModule { }
